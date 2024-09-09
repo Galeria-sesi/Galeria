@@ -78,6 +78,9 @@
       <button id="signUpButton">Cadastrar</button>
     </div>
   </div>
+  <div class="no-login-container">
+    <a href="menu.php" class="no-login-btn">Entrar sem login</a>
+  </div>
   <script src="script.js"></script>
 </body>
 
