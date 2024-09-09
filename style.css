@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    background-color: #ffeded;
+}
+.container{
+    background:white;
+    border: 3px solid #8E0000;
+    width:450px;
+    padding:1.5rem;
+    margin:50px auto;
+    border-radius:10px;
+}
+form{
+    margin:0 2rem;
+}
+.form-title{
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+    padding:1.3rem;
+    margin-bottom:0.4rem;
+}
+input{
+    width:100%;
+    background-color: white;
+    border: 1px solid #8E0000;
+    border-radius: 30px;
+    padding-left:1.5rem;
+    font-size: 16px;
+    height: 25px;
+}
+
+.fas{
+    margin-right: 3%;
+}
+
+.input-group{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.input-group i{
+    position: relative;
+    color:black;
+}
+input::placeholder{
+    color:transparent;
+}
+label{
+    color:#757575;
+    position:relative;
+    left:1.2em;
+    top:-1.3em;
+    cursor:auto;
+    transition:0.3s ease all;
+    pointer-events: none;
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    top:-3em;
+    color: transparent;
+    font-size:15px;
+}
+.recover{
+    text-align:right;
+    font-size:1rem;
+    margin-bottom:1rem;
+
+}
+.recover a{
+    text-decoration:none;
+    color: #8E0000;
+}
+.recover a:hover{
+    color:lightgray;
+    text-decoration:underline;
+}
+.mae{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-size:1.1rem;
+    padding: 0px;
+    border-radius:30px;
+    border:none;
+    width:100%;
+    background:white;
+    border: 1px solid #8E0000;
+    color: black;
+    cursor:pointer;
+    transition:0.9s;
+    height: 30px;
+    width: 200px;
+}
+.btn:hover{
+    color: white;
+    background:#8E0F21;
+    border: none;
+}
+.or{
+    font-size:1.1rem;
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+    text-align:center;
+}
+.icons{
+    text-align:center;
+}
+.icons i{
+    color: #8E0000;
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:2px solid #8E0000;
+    margin:0 15px;
+    transition:1s;
+}
+.icons i:hover{
+    background:#8E0000;
+    color: white;
+    font-size:1.6rem;
+    border:2px solid white;
+}
+.links{
+    display: flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
+}
+button{
+    color: #8E0000;
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+button:hover{
+    text-decoration:underline;
+    color:lightgray;
+}
