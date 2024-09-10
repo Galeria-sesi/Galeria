@@ -45,9 +45,9 @@ $name = pathinfo($imagePath, PATHINFO_FILENAME);
 </div>
 
 <div class="footer">
-    <button class="social-btn">REDES SOCIAIS</button>
+<a href="contatos.php" class="add-btn">REDES SOCIAIS</a>
     <a href="test.php" class="add-btn">ADICIONAR IMAGEM</a>
-    <button class="about-btn">SOBRE NÓS</button>
+    <a href="sobrenos.php" class="add-btn">SOBRE NÓS</a>
 </div>
 
 <script src="script.js"></script>

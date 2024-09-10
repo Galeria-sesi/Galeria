@@ -33,7 +33,7 @@ if (isset($_POST["submit"])) {
             if (move_uploaded_file($tmpName, 'img/' . $newImageName)) {
                 $query = "INSERT INTO tb_upload (name, image, description) VALUES ('$name', '$newImageName', '$description')";
                 if (mysqli_query($conn, $query)) {
-                    echo "<script>alert('Successfully Added'); document.location.href = 'index.php';</script>";
+                    echo "<script>alert('Successfully Added'); document.location.href = 'menu.php';</script>";
                 } else {
                     echo "Error: " . mysqli_error($conn);
                 }
